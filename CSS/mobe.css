@@ -1,0 +1,84 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+header {
+    background: linear-gradient(lightpink,pink,lightpink);
+    flex-direction: column;
+    justify-content: center;
+} 
+div.logo{
+    display: none;
+}
+.tieude{
+    text-align: center;
+    width: 100%;
+    color: blue !important;
+}
+.hinh{
+    display: none;
+}
+h1 {
+    font-size:20px;
+}
+img {
+    width: 100%;
+}
+ul.menu > li span {
+    font-size: 16px;
+    color: lightcyan;
+    padding: 5px 0;
+}
+nav>ul.menu >li{
+    border: none;
+}
+.slideshow {
+    margin: 5px auto;
+    width: 95%;
+}
+div.slideshow>img{
+    width:100%;
+}
+.form {
+    display: block;
+    width: 95%;
+}
+div.left, div.right {
+    width: 95%;
+}
+div.right,div.left {
+    margin-left: 5px !important;
+}
+div.right > h1 {
+    color: gold;
+}
+div.row:last-child>div{
+    margin-left: auto;
+    margin-right: 0 !important;
+}
+.foot {
+    display: block;
+}
+.menu1 {
+    font-size: 16px;
+    padding: 15px;
+}
+.foot3 > div > iframe {
+    padding-left: 80px;
+}
+ul.menu2 {
+    display: block ;
+}
+ul.menu2>li {
+    padding: 5px ;
+}
+.toTop {
+    right: 10% ;
+    font-size: 35px ;
+}
+@media screen and (orientation: landscape) {
+    body {
+    background-color: yellow;
+    }
+    /* khi chiều rộng lớn hơn chiều cao thì sẽ có màu gold , landscape*/
+}

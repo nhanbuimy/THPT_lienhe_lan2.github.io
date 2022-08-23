@@ -69,7 +69,7 @@ ul.menu>li>a{
     padding:10px;  
 }
 
-ul.menu>li>a>img{
+ul.menu>li>a>i{
     width:20px;
 }
 ul.menu>li>a>span{
@@ -83,22 +83,6 @@ nav>ul.menu>li>a:hover{
     background-color:rgb(235, 27, 44);
     color:yellow;
 }
-
-input[type=text] {
-    background-color: white;
-    color: black;
-    outline:none;
-    box-sizing: border-box;
-  }
-
-  input[type=text]:focus {
-    width: 75%;
-  }
-
-/*div> button img{
-    width:10px;
-   }
-*/
 
 .subcontent{
     display: none;
