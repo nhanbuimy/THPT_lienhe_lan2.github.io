@@ -33,11 +33,7 @@ nav>ul.menu >li{
     border: none;
 }
 .slideshow {
-    margin: 5px auto;
-    width: 95%;
-}
-div.slideshow>img{
-    width:100%;
+   display: none;
 }
 .form {
     display: block;
